@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  address: 0.0.0.0
+
+logging:
+  level:
+    root: INFO
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  rabbitmq:
+    port: 5672
+    host: localhost
+    username: guest
+    password: guest
+
